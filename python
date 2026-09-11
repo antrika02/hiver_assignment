@@ -1,0 +1,35 @@
+
+==========================================
+      HIVER AI AGENT TESTING RUNNER       
+==========================================
+
+[Test Case 1]
+Customer Tweet : @AppleSupport My iPhone battery dropped from 80% to 10% in 20 minutes after iOS update! Fix this!
+Agent Result   :
+{
+  "response": {
+    "message": "Hi! We're sorry to hear about your battery issue after the update. Please try restarting your iPhone and checking for any app updates. For more help, visit support.apple.com. Let us know if you need further assistance!",
+    "escalate": false
+  }
+}
+--------------------------------------------------
+[Test Case 2]
+Customer Tweet : @AppleSupport I was charged $49.99 twice for my iCloud storage this morning! Refund me now!
+Agent Result   :
+{
+  "response": {
+    "message": "I'm sorry to hear about the double charge for your iCloud storage. Please visit support.apple.com for assistance with billing issues and refunds. We\u2019re here to help!",
+    "escalate": true
+  }
+}
+--------------------------------------------------
+[Test Case 3]
+Customer Tweet : @AppleSupport How do I pair my AirPods Pro with my MacBook Air?
+Agent Result   :
+{
+  "response": {
+    "message": "To pair your AirPods Pro with your MacBook Air, open the lid of your AirPods case, press and hold the button on the back until the light flashes white. Then, on your Mac, go to System Preferences > Bluetooth and select your AirPods. For more help, visit support.apple.com.",
+    "escalate": false
+  }
+}
+--------------------------------------------------
